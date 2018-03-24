@@ -1,0 +1,7 @@
+[
+
+    { "key": "ctrl+shift+alt+p",      "command": "PowerShell.ShowAdditionalCommands",
+
+                                      "when": "editorTextFocus && editorLangId == 'powershell'" }
+
+]
