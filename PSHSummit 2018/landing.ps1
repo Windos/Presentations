@@ -11,3 +11,14 @@
     You won't see me run any code, that's happening automatically
 
 #>
+
+#region Example Setup
+Add-Type -Path 'C:\temp\Selenium\WebDriver.dll'
+
+$Global:Selenium = New-Object OpenQA.Selenium.Chrome.ChromeDriver
+$Url = 'http://localhost'
+
+Start-RunBucket -Control {Start-Sleep -Milliseconds 5} -Variation {} -Title 'Example'
+
+$Global:Selenium.Navigate().GoToUrl($Url)
+#endregion
