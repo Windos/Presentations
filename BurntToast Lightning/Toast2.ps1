@@ -1,0 +1,1 @@
+﻿New-BurntToastNotification -Text 'WAKE UP!' -Sound 'Alarm2'

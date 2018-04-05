@@ -1,0 +1,1 @@
+﻿New-BurntToastNotification -Text 'BurntToast:', 'A Little on the Dark Side'
