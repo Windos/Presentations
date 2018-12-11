@@ -1,0 +1,18 @@
+{
+    "editor.fontFamily": "Hack",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "PowerShell ISE",
+    "files.trimTrailingWhitespace": true,
+    "powershell.codeFormatting.preset": "OTBS",
+    "files.defaultLanguage": "powershell",
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "powershell.integratedConsole.focusConsoleOnExecute": false,
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}VS Code",
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 2,
+    "window.menuBarVisibility": "toggle",
+    "powershell.scriptAnalysis.enable": false,
+    "workbench.settings.editor": "json",
+}
